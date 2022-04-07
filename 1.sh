@@ -3,7 +3,7 @@
 apt install openssh-server -y
 S1="#   Port 22"
 S2="#Port 22"
-S3="#PermitRootLogin prohibit-passwords"
+S3="#PermitRootLogin prohibit-password"
 R1="Port 4242"
 R3="PermitRootLogin no"
 FILE1="/etc/ssh/ssh_config"
