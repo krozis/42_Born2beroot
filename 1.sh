@@ -1,13 +1,13 @@
 
 #SSH part
 apt install openssh-server -y
-$S="#Port 22"
+$S="#   Port 22"
 $R="Port 4242"
 $FILE="/etc/ssh/sshd_config"
 $FILE2="/etc/ssh/ssh_config"
 sed -i "s/$S/$R/" $FILE
 sed -i "s/$S/$R/" $FILE2
-$S="#PermitRootLogin prohibit-password"
+$S="#   PermitRootLogin prohibit-password"
 $R="PermitRootLogin no"
 sed -i "s/$S/$R/" $FILE
 service ssh restart
