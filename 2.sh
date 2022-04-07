@@ -1,7 +1,7 @@
 #!bin/bash
 
 #Variables
-S_DIR="/script"
+S_DIR="/scripts"
 C_DIR="/var/spool/cron/crontabs"
 MOSH="monitoring.sh"
 CTAB="root"
