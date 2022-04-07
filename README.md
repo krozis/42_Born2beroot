@@ -9,27 +9,23 @@ langages : US
 region : France
 Keymap : US
 
-root pass : Qwerty42$
+root pass (at install) : Qwerty42$
 user fullname: stelie
 username : stelie
-pass : Qwerty42$
+pass (at install) : Qwerty42$
 
-#Partition setup : bonus part mode.
+#After install:
 
-Manual
+TO DO IN "SU" mode:
 
+-apt update
+-apt upgrade
+-apt install sudo
+-sudo adduser stelie sudo
+-install GIT and git clone the Born2berootfolder
+-uninstall GIT
+-reboot
 
-Create boot partition (primary, 500Mo, mount point Boot)
-Create other partition (Logical, 8GB or "max", Do not mount it)
-  -> Configure encrypted volumes -> Yes -> Create encrypted volumes -> /dev/sda5
-passphrase : 	42Born2beroot_stelie
-Configure the Logical Volume Manager -> yes -> Create volume groupe : "LVMGroup" on /dev/mapper/sda5_crypt
-Create Logical Volumes: 
-- root -> 2G
-- swap -> 1G
-- home -> 1G
-- var -> 1G
-- srv -> 1G
-- tmp -> 1G
-- var-log -> 2GB
+After that, launch in the order the scripts (1.sh, 2.sh,...)
+
 
