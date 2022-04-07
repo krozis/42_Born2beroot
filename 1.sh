@@ -40,3 +40,7 @@ sed -i "s/$S/$R/" $FILE
 apt install libpam-pwquality -y
 cp sudo_pwd/common-password /etc/pam.d/
 
+#Network config
+apt install net-tools -y
+cp sudo_pwd/interfaces /etc/network/
+
