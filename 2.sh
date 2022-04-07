@@ -12,7 +12,7 @@ chmod 755 $S_DIR
 cp ./monitoring/$MOSH $S_DIR
 cp ./monitoring/$CTAB $C_DIR
 chmod 755 $S_DIR/$MOSH
-systemctl enable crond
-systemctl restart crond
+systemctl enable cron
+systemctl restart cron
 
 
