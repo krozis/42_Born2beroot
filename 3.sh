@@ -28,4 +28,4 @@ sudo lighty-enable-mod fastcgi
 sudo lighty-enable-mod fastcgi-php
 sudo service lighttpd force-reload
 cp bonus/php.php /var/www/html/
-
+apt install cockpit -y
