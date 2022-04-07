@@ -1,0 +1,139 @@
+    1  apt status sudo
+    2  apt 
+    3  apt show sudo
+    4  sudo nano
+    5  ls
+    6  cd 42
+    7  cd 42_Born2beroot/
+    8  ls
+    9  sudo 1.sh 
+   10  sudo bash 1.sh 
+   11  ss -tunlp
+   12  sudo ufw status
+   13  sudo ssh status
+   14  sudo service ssh status
+   15  passwd
+   16  sudo passwd
+   17  sudo reboot
+   18  ls
+   19  ls 42Born2beroot/
+   20  rm -rf 42Born2beroot/
+   21  sudo rm -rf 42Born2beroot/
+   22  git clone https://github.com/krozis/42_Born2beroot.git
+   23  ls
+   24  cd 42_Born2beroot/
+   25  ls
+   26  nano 2.sh 
+   27  sudo bash 2.sh 
+   28  sudo bash 3.sh 
+   29  nano 4.sh
+   30  sudo bash 4.sh 
+   31  nano 4.sh
+   32  sudo bash 4.sh 
+   33  sudo mariadb
+   34  mariadb
+   35  sudo mariadb
+   36  nano 4.sh 
+   37  mkdir bonus
+   38  mv 4.sh bonus/sql_script
+   39  nano 4.sh
+   40  sudo mariadb
+   41  nano 4.sh 
+   42  ls bonus/
+   43  sudo bash 4.sh 
+   44  nano 4.sh 
+   45  sudo bash 4.sh 
+   46  nano 4.sh 
+   47  sudo bash 4.sh 
+   48  nano 4.sh 
+   49  sudo bash 4.sh 
+   50  nano 4.sh 
+   51  cat bonus/sql_script 
+   52  nano 4.sh 
+   53  sudo bash 4.sh 
+   54  mariadb
+   55  mariadb -u stelie -p
+   56  ls
+   57  cat 4.sh 
+   58  git pull
+   59  ls
+   60  cat 3.sh 
+   61  rm 4.sh 
+   62  ls
+   63  ls bonus/
+   64  rm bonus/sql_script 
+   65  ls
+   66  git status
+   67  sudo bash 3.sh 
+   68  cd /var/www/html/
+   69  ls
+   70  cat wp-config
+   71  cat wp-config.php 
+   72  ls
+   73  cd
+   74  cd 42_Born2beroot/
+   75  git pull
+   76  ls
+   77  nano 3.sh 
+   78  sudo bash 3.sh 
+   79  cat /var/www/html/wp-admin/images/
+   80  ls /var/www/html/wp-admin/images/
+   81  ls /var/www/html/wp-admin
+   82  cd /var/www/html/
+   83  sudo nano wp-config.php 
+   84  cat index.php
+   85  ls
+   86  sudo nano wp-config.php 
+   87  php -v
+   88  sudo apt install php8.0
+   89  sudo apt install php8
+   90  sudo apt install php8.1
+   91  sudo apt install php8.2
+   92  sudo apt install php
+   93  sudo system enable php
+   94  sudo systemctl enable php
+   95  sudo systemctl enable php-cgi
+   96  sudo systemctl enable php-fpm
+   97  sudo systemctl enable php-common
+   98  sudo systemctl | grep php
+   99  sudo apt purge apache2
+  100  sudo nano /etc/php/7.4/cgi/php.ini 
+  101  cat nano /etc/php/7.4/cgi/php.ini 
+  102  sudo nano /etc/php/7.4/cgi/php.ini 
+  103  sudo nano /etc/lighttpd/conf-available/15-fastcgi-php.conf 
+  104  history | grep light
+  105  sudo service lighttpd force-reload
+  106  sudo nano /etc/php/7.4/cgi/php.ini 
+  107  sudo nano /etc/lighttpd/conf-available/15-fastcgi-php.conf 
+  108  sudo service lighttpd force-reload
+  109  sudo service lighttpd enable
+  110  sudo systemctl lighttpd enable
+  111  sudo systemctl enable lighttpd
+  112  sudo systemctl start lighttpd
+  113  sudo systemctl status lighttpd
+  114  sudo nano /etc/php/7.4/cgi/php.ini 
+  115  sudo systemctl start lighttpd
+  116  sudo systemctl enable lighttpd
+  117  sudo systemctl start lighttpd
+  118  history
+  119  sudo reboot
+  120  history
+  121  sudo systemctl start lighttpd
+  122  sudo systemctl status lighttpd
+  123  sudo nano /etc/php/7.4/cgi/php.ini 
+  124  sudo nano /etc/lighttpd/conf-available/15-fastcgi-php.conf 
+  125  sudo systemctl start lighttpd
+  126  cd /var/www/html/
+  127  ls
+  128  cd wp-content/
+  129  ls
+  130  mv plugins/ plugin_old
+  131  sudo mv plugins/ plugin_old
+  132  cd ..
+  133  ls
+  134  wp theme list +-----------------+----------+--------+---------+ | name            | status   | update | version | +-----------------+----------+--------+---------+ | boldgrid-primas | inactive | none   | 1.23.1  | | boldgrid-swifty | active   | none   | 1.1.1   | | twentyfifteen   | inactive | none   | 1.9     | | twentyseventeen | inactive | none   | 1.4     | | twentysixteen   | inactive | none   | 1.4     | +-----------------+----------+--------+---------+
+  135  ls
+  136  sudo nano wp-config
+  137  sudo nano wp-config.php 
+  138  sudo systemctl start lighttpd
+  139  sudo service lighttpd force-reload
