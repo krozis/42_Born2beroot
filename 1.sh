@@ -3,7 +3,7 @@
 apt install openssh-server -y
 S1="#   Port 22"
 S2="#Port 22"
-S3="#PermitRootLogin prohibit-password"
+S3="#PermitRootLogin prohibit-passwords"
 R1="Port 4242"
 R3="PermitRootLogin no"
 FILE1="/etc/ssh/ssh_config"
@@ -12,6 +12,7 @@ sed -i "s/$S1/$R1/" $FILE1
 sed -i "s/$S2/$R1/" $FILE2
 sed -i "s/$S3/$R3/" $FILE2
 service ssh restart
+service sshd restart
 
 #Uncomplicated FireWall part
 apt install ufw -y
