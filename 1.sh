@@ -35,10 +35,16 @@ R="PASS_MAX_DAYS	30"
 FILE="/etc/login.defs"
 sed -i "s/$S/$R/" $FILE
 S="PASS_MIN_DAYS	0"
-R="PASS_MIN_DAYS	3"
+R="PASS_MIN_DAYS	2"
 sed -i "s/$S/$R/" $FILE
 apt install libpam-pwquality -y
 cp sudo_pwd/common-password /etc/pam.d/
+chage -M 30 stelie
+chage -M 30 root
+chage -m 2 stelie
+chage -m 2 root
+chage -W 7 stelie
+chage -W 7 root
 
 #Network config
 apt install net-tools -y
