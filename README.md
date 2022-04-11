@@ -1,4 +1,4 @@
-# 42_Born2beroot
+#42_Born2beroot
 Born2beroot project for school 42 Cursus.
 
 
@@ -14,23 +14,30 @@ user fullname: stelie
 username : stelie
 pass (at install) : Qwerty42$
 
-#After install:
+##After install:
 
 TO DO IN "SU" mode:
 
-apt update
-apt upgrade
-apt install sudo
-sudo adduser stelie sudo
-install GIT and git clone the Born2berootfolder
-uninstall GIT
-reboot
+* apt update
+* apt install git
+* git clone the Born2berootfolder
+* uninstall GIT
+* bash 0.sh
+* reboot
 
 ------------------------
-After that, launch 1.sh
-then change passwords:
+* sudo bash 1.sh
+* change passwords:
 passwd (stelie) and sudo passwd (root)
 new pass (both) : AdventureTimes42$
-reboot
+* reboot
+------------------------
+* sudo bash 2.sh
+* en root, crontab -e, choose editor, change "*/10" to "*/1" and test, if ok change back "*/10"
+------------------------
+* sudo bash 3.sh
+* on browser: go localhost:8080 (http port chosen in Virtualbox) and install wordpress.
+* check if Cockpit works on localhost:9090
+
 
 
